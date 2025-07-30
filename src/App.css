@@ -1,0 +1,140 @@
+.containerHeader {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.name_org > h2 {
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 34px;
+    color: #212121;
+    transform: translateY(-5px);
+    animation: slideDown 0.5s ease-out forwards;
+}
+
+.buttons_org {
+    display: flex;
+    gap: 20px;
+    animation: fadeIn 0.6s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
+.nav__item {
+    font-family: 'Neue Machina', sans-serif;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 6px;
+    display: flex;
+    gap: 5px;
+    transition: color 0.3s, background 0.3s, transform 0.3s;
+    position: relative;
+}
+
+.iconPerfume {
+    font-size: 20px;
+}
+
+.nav__item:hover {
+    color: #fff;
+    background: #212121;
+    transform: translateY(-2px);
+}
+
+.nav__item::after {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #212121;
+    transition: width 0.3s ease;
+}
+
+.nav__item:hover::after {
+    width: 100%;
+}
+
+.allrr {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+    font-family: 'Neue Machina', sans-serif;
+    animation: fadeIn 0.6s ease-in-out 0.3s;
+    animation-fill-mode: both;
+}
+
+.social-links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    font-family: 'Neue Machina', sans-serif;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out 0.4s forwards;
+}
+
+.social-links > a {
+    color: #212121;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links > a:hover{
+    color: #202020;
+    transform: scale(1.05);
+}
+
+.wcbrs {
+    text-align: left;
+    font-family: 'Neue Machina', sans-serif;
+    animation: fadeIn 1s ease-in-out 0.4s;
+    animation-fill-mode: both;
+    text-decoration: none;
+}
+
+.nav__logo {
+    text-decoration: none;
+    animation: fadeIn 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav__item {
+    font-size: 0; /* Скрывает текст */
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .nav__item .iconPerfume {
+    font-size: 20px;
+    display: inline-block;
+  }
+  .social-links{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,242 @@
+.admin-container-admin {
+    max-width: 1200px;
+    margin: 32px auto;
+    padding: 32px 24px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;    
+    border-radius: 12px;
+}
+
+.admin-title-admin {
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 28px;
+    text-align: center;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.admin-form-admin {
+    font-family: 'Neue Machina', sans-serif;
+    background: #fff;
+    padding: 24px 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+    margin-bottom: 32px;
+}
+
+.form-title-admin {
+    font-family: 'Neue Machina', sans-serif;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.form-input-admin {
+    font-family: 'Neue Machina', sans-serif;
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 16px;
+    border: 1.5px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #f6f8fa;
+}
+
+.form-input-admin:focus {
+    font-family: 'Neue Machina', sans-serif;
+    border-color: #000000;
+    outline: none;
+    box-shadow: 0 0 0 2px #dfdfdf;
+}
+
+.form-file-input-admin {
+    margin-bottom: 16px;
+}
+
+.form-buttons-admin {
+    display: flex;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.btn-admin {
+    font-family: 'Neue Machina', sans-serif;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    user-select: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.btn-submit-admin {
+    background: linear-gradient(90deg, #000000 60%, #282828 100%);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-submit-admin:hover {
+    background: linear-gradient(90deg, #282828 60%, #000000 100%);
+}
+
+.btn-cancel-admin {
+    font-family: 'Neue Machina', sans-serif;
+    background: #6c757d;
+    color: #fff;
+}
+
+.btn-cancel-admin:hover {
+    background: #545b62;
+}
+
+.btn-edit-admin {
+    font-family: 'Neue Machina', sans-serif;
+    background: #000000;
+    color: #ffffff;
+    margin-right: 8px;
+    border: 1px solid #000000;
+}
+
+.btn-edit-admin:hover {
+    border: 1px solid #000000;
+    background: #ffffff;
+    color: #000000;
+}
+
+.btn-delete-admin {
+    background: #dc3545;
+    color: #fff;
+}
+
+.btn-delete-admin:hover {
+    background: #b02a37;
+}
+
+.error-message-admin {
+    color: #dc3545;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+
+.success-message-admin {
+    color: #28a745;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+
+.section-title-admin {
+    font-size: 1.5rem;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    padding-bottom: 7px;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+.perfume-grid-admin {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.perfume-card-admin {
+    border: 1.5px solid #e3e8ee;
+    padding: 18px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.perfume-card-admin:hover {
+    border-color: #000000;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,123,255,0.08);
+}
+
+.perfume-image-admin {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    border: 1px solid #e3e8ee;
+    background: #f6f8fa;
+}
+
+.perfume-name-admin {
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #222;
+}
+
+.perfume-actions-admin {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.bookings-grid-admin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.booking-card-admin {
+    border: 1.5px solid #e3e8ee;
+    padding: 18px;
+    width: 370px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.booking-card-admin:hover {
+    border-color: #000000;
+    box-shadow: 0 4px 16px rgba(0,123,255,0.08);
+}
+
+.booking-actions-admin {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-select-admin {
+    padding: 8px 10px;
+    margin-right: 14px;
+    border-radius: 5px;
+    border: 1.5px solid #b3c6e0;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #f6f8fa;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.status-select-admin:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px #cce4ff;
+}
+

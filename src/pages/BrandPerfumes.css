@@ -1,0 +1,69 @@
+.brand-perfumes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.brand-title {
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.brand-perfumes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.brand-perfume-card {
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 14px;
+    color: #222;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: left;
+    background: #fff;
+    font-family: 'Neue Machina', sans-serif;
+    border: 1px solid #ececec;
+}
+
+.brand-perfume-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-perfume-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.brand-back-link {
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.brand-back-link:hover {
+  text-decoration: underline;
+}
+
+.brand-loading {
+    font-family: 'Neue Machina', sans-serif;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 1.3rem;
+    color: #888;
+    letter-spacing: 0.5px;
+}
