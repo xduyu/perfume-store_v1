@@ -56,7 +56,6 @@ function App() {
         <div className="buttons_org">
           <Link className='nav__item' to="/"><TbPerfume className='iconPerfume' /> All Perfumes</Link>
           <Link className='nav__item' to="/categories"><BiCategory className='iconСategories iconPerfume' /> categories</Link>
-          {/* <Link className='nav__item' to="/"><TbPerfume className='iconPerfume' /> All Perfumes</Link> TODO ADD HERE CATEGORY  */}
           {isLoggedIn ? (
             <Link className='nav__item' to="/admin" style={{ display: isLoggedIn ? 'inline-flex' : 'none' }}>
               <MdAdminPanelSettings className='iconPerfume' /> Admin Panel
