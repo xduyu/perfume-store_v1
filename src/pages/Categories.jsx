@@ -10,7 +10,6 @@ function Categories() {
     fetch('http://localhost:3000/api/perfumes-data')
       .then(response => response.json())
       .then(data => {
-        // Создаем уникальные категории брендов
         const uniqueBrands = [...new Set(data.map(perfume => perfume.brand))];
         
         const brandCategories = uniqueBrands.map(brand => {
