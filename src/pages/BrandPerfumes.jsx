@@ -56,7 +56,6 @@ function BrandPerfumes() {
           ))}
         </div>
       )}
-      
       <Link to="/categories" className="back-link">← Back to Categories</Link>
     </div>
   );
