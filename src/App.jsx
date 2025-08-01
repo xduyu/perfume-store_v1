@@ -65,7 +65,7 @@ function App() {
             {/* {!isLoggedIn && (
               <Link className='nav__item' to="/login">
                 <IoIosLogIn className='iconPerfume' /> For Sellers
-              </Link>
+              </Link> 1223
             )} */}
             </div>
         </nav>
