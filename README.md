@@ -26,18 +26,7 @@ This project simulates an online shop with product listings, navigation, and bas
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla JS)**
-
-## 📂 Structure
-
-```
-perfume-store_v1/
-├── index.html          # Main page
-├── style.css           # All styles
-├── script.js           # Basic JS logic
-├── assets/             # Images, icons
-└── README.md
-```
+- **JavaScript (React JS)**
 
 ## 🔧 Installation
 
@@ -46,17 +35,9 @@ To run this project locally:
 ```bash
 git clone https://github.com/xduyu/perfume-store_v1.git
 cd perfume-store_v1
-open index.html
+npm install
+npm run dev
 ```
-
-Or just open `index.html` directly in your browser.
-
-## 📌 TODO / Future Improvements
-
-- Add shopping cart functionality
-- Add filtering/sorting for products
-- Connect to a real backend or JSON database
-- Improve accessibility (a11y)
 
 ## 🤝 Contributing
 
