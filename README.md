@@ -1,4 +1,17 @@
-# React + Vite
+# 🌸 Perfume Store v1
+
+A simple, modern web-based perfume store built with HTML, CSS, and JavaScript.  
+This project simulates an online shop with product listings, navigation, and basic interactivity — ideal as a front-end practice project.
+
+## 🚀 Features
+
+- Responsive layout for mobile and desktop
+- Product catalog with images and prices
+- Stylish and animated UI
+- Navigation bar and product section switching
+- Lightweight and fast
+
+## 📸 Screenshots
 
 <img width="1900" height="902" alt="image" src="https://github.com/user-attachments/assets/bb734fae-1140-4083-9d65-ce53544a4a09" />
 
@@ -8,4 +21,51 @@
 
 <img width="1903" height="905" alt="image" src="https://github.com/user-attachments/assets/b632a2cd-3a95-4b83-8f99-2abf0aac7c7a" />
 
-in dev
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+
+## 📂 Structure
+
+```
+perfume-store_v1/
+├── index.html          # Main page
+├── style.css           # All styles
+├── script.js           # Basic JS logic
+├── assets/             # Images, icons
+└── README.md
+```
+
+## 🔧 Installation
+
+To run this project locally:
+
+```bash
+git clone https://github.com/xduyu/perfume-store_v1.git
+cd perfume-store_v1
+open index.html
+```
+
+Or just open `index.html` directly in your browser.
+
+## 📌 TODO / Future Improvements
+
+- Add shopping cart functionality
+- Add filtering/sorting for products
+- Connect to a real backend or JSON database
+- Improve accessibility (a11y)
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+## 📄 License
+
+MIT License — feel free to use, modify, and distribute.
+
+---
+
+Made with ❤️ by [Rodion Sedov](https://github.com/xduyu)
